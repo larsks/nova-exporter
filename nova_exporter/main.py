@@ -17,7 +17,7 @@ LOG = logging.getLogger(__name__)
 @click.command()
 @click.option('--os-cloud')
 @click.option('-l', '--listen', default='0.0.0.0')
-@click.option('-p', '--port', default=5113)
+@click.option('-p', '--port', default=5114)
 @click.option('-v', '--verbose', count=True, default=0,
               type=click.IntRange(0, 2))
 def main(os_cloud, verbose, listen, port):
